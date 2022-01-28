@@ -1,0 +1,18 @@
+li{
+    list-style-type: none;/*on ne veut aucune puce*/
+}
+ul{
+    display: flex;/*ont définit l'element en flexbox*/
+    padding-left: 0%;
+    justify-content: space-around;
+    margin: 0%;
+}
+nav{
+   background-color: rgb(7, 7, 7); 
+}
+a{
+    display: inline-block;
+    padding: 20px 15px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+  }
