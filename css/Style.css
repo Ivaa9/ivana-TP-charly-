@@ -1,0 +1,72 @@
+li{
+    list-style-type: none;/*on ne veut aucune puce*/
+}
+ul{
+    display: flex;/*ont définit l'element en flexbox*/
+    padding-left: 0%;
+    justify-content: space-around;
+    margin: 0%;
+}
+nav{
+   background-color: rgb(255, 255, 255); 
+}
+a{
+    display: inline-block;
+    padding: 20px 15px;
+    color: rgb(121, 10, 10);
+    text-decoration: none;
+    }
+    a:hover:not(#haut){/*quand pn curseur survole l'element*/
+        background-color: rgb(228, 161, 161);
+        color: rgb(189, 115, 115);
+    }
+    header{
+        background-image: url('../images/fond.jpg');
+        height: 50vh;
+        background-position: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content:space-between;
+        }
+        h1,header p{
+            color: rgb(255, 255, 255);
+         text-align:left;
+         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+         }
+         p{
+            text-align: justify;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+            
+          }
+          header div{
+              padding-bottom: 20px;
+          }
+           main > section>   {
+              padding: 50px 250px;
+              background-color: rgb(207, 130, 130)
+          }
+          img{
+            width: 20%;
+            height: auto;
+            
+            }
+            #img-container img{
+                width: 25%;
+                height: auto;
+                box-sizing: border-box;
+                padding: 5px;
+                }
+                .section-paire {
+                text-align: justify;
+                background-color: burlywood;
+                }
+                footer{
+                    background-color: coral;
+                    height: 50px;
+                }
+                footer p{
+                    text-align: center;
+                    padding-top: 20px;
+                }
+
+
