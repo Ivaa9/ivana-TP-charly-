@@ -1,8 +1,8 @@
 li{
-    list-style-type: none;/*on ne veut aucune puce*/
+    list-style-type: none;
 }
 ul{
-    display: flex;/*ont définit l'element en flexbox*/
+    display: flex;
     padding-left: 0%;
     justify-content: space-around;
     margin: 0%;
