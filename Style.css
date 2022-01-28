@@ -1,8 +1,8 @@
 li{
-    list-style-type: none;
+    list-style-type: none;/*on ne veut aucune puce*/
 }
 ul{
-    display: flex;
+    display: flex;/*ont définit l'element en flexbox*/
     padding-left: 0%;
     justify-content: space-around;
     margin: 0%;
@@ -11,8 +11,47 @@ nav{
    background-color: rgb(7, 7, 7); 
 }
 a{
-    display: inline-block;
-    padding: 20px 15px;
+  display: inline-block;
+  padding: 20px 15px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+a:hover:not(#haut){/*quand pn curseur survole l'element*/
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+body{
+    margin: 0%;
+}
+header{
+    height: 50vh;
+    background-position: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+ }
+ h1,header p{
     color: rgb(255, 255, 255);
-    text-decoration: none;
-  }
+ text-align:center;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+p{
+  text-align: justify;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+  
+}
+header div{
+    padding-bottom: 20px;
+}
+ main > section{
+    padding: 50px 250px;
+    background-color: rgb(255, 255, 255)
+}
+h2,h3{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.section-paire {
+    background-color:burlywood
+
+}
